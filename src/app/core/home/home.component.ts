@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log("User List - Verify we have a logged in user!");
+    console.log("home component - Verify we have a logged in user!");
     //console.log("User:",this.loggedInUser);
     //console.log("Admin?",this.isAdmin);
     this.sysSvc.checkLogin();
